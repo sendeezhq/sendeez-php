@@ -1,40 +1,46 @@
 {
-    "name": "sendeez/sendeez",
-    "description": "Zero-dependency PHP SDK for the Sendeez transactional email API.",
-    "type": "library",
-    "license": "MIT",
-    "keywords": ["email", "transactional-email", "sendeez", "sdk", "api"],
-    "homepage": "https://github.com/sendeezhq/sendeez-php#readme",
-    "support": {
-        "issues": "https://github.com/sendeezhq/sendeez-php/issues",
-        "source": "https://github.com/sendeezhq/sendeez-php"
-    },
-    "authors": [
-        {
-            "name": "Sendeez"
-        }
-    ],
-    "require": {
-        "php": ">=8.1",
-        "ext-curl": "*",
-        "ext-json": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^11.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Sendeez\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Sendeez\\Tests\\": "tests/"
-        }
-    },
-    "scripts": {
-        "test": "phpunit"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+  "name": "sendeez/sendeez",
+  "description": "Zero-dependency PHP SDK for the Sendeez transactional email API.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "email",
+    "transactional-email",
+    "sendeez",
+    "sdk",
+    "api"
+  ],
+  "homepage": "https://github.com/sendeezhq/sendeez-php#readme",
+  "support": {
+    "issues": "https://github.com/sendeezhq/sendeez-php/issues",
+    "source": "https://github.com/sendeezhq/sendeez-php"
+  },
+  "authors": [
+    {
+      "name": "Sendeez"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sendeez\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sendeez\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
