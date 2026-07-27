@@ -4,10 +4,10 @@
     "type": "library",
     "license": "MIT",
     "keywords": ["email", "transactional-email", "sendeez", "sdk", "api"],
-    "homepage": "https://github.com/lucassms9/sendeez/tree/main/packages/sdk-php#readme",
+    "homepage": "https://github.com/sendeezhq/sendeez-php#readme",
     "support": {
-        "issues": "https://github.com/lucassms9/sendeez/issues",
-        "source": "https://github.com/lucassms9/sendeez"
+        "issues": "https://github.com/sendeezhq/sendeez-php/issues",
+        "source": "https://github.com/sendeezhq/sendeez-php"
     },
     "authors": [
         {
